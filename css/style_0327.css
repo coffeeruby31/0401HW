@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+    background: rgba(250, 242, 231, 0.952) url(../photo/Taipei\,\ Taiwan_test.webp) no-repeat;
+    
+
+}
+
+header {
+    padding-top: 5px;
+    width: 790px;
+    margin: 0 auto;
+    height: 80px;
+    border: 2px dotted #29ac75;
+    background-image: url(../photo/view_test.png) ;
+    font-family:'Limelight';
+    background-position: 40% 50%;
+    background-color: rgb(255, 234, 206);
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 1px 1px 2px #ecfff7cb;
+    
+}
+
+h1{
+    color: black;
+    font-size: 250%;
+    margin: 0px auto;
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 1px 1px 2px #20573e;
+    font-family: 'Limelght',cursive;
+}
+
+/*次標題設定*/
+.h{
+    padding: 10px;
+    margin-bottom: 10px;
+    border:  1px dotted #94c8b1;
+    border-left: 10px solid #fdb85d;
+    color:  rgb(16, 107, 68);
+    border-radius: 5px 20px 20px 5px;
+}
+
+.h-sub{
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #FF8600;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffb80372 inset;
+
+}
+
+
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+  }
+  .menu a {
+    display: block;
+    padding: 5px;
+    background: #266479c1;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .menu a:hover {
+    background: #014226b5;
+  }
+
+.nav-list{
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav ul li a:link, nav ul li a:active, nav ul li a:visited{
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 1.0rem;
+}
+
+nav ul li a:hover{
+    background-color: rgb(13, 32, 26);
+    /* text-decoration: underline； */
+    color: whitesmoke;
+}
+
+.content-area{
+   display: flex;
+}
+
+
+/*「更多介紹」連結設定*/
+.more{
+    text-align: right;
+}
+.more::after{
+    content: url(../photo/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+   
+article{
+    flex: 2;
+    min-height: 600px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: 5px;
+    border-left: 2px dotted #f6bb9a;
+    border-right: 2px dotted #f6bb9a;
+    background: rgba(255, 249, 241, 0.699) 
+}
+
+aside{
+    flex: 2;
+    min-height: 600px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 3px;
+    border-left: 2px dotted #f6bb9a;
+    border-right: 2px dotted #f6bb9a;
+    background: rgba(255, 249, 241, 0.699) 
+}
+
+footer{
+    color: #444444;
+
+    height: 30px;
+    margin: 4px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    background: #BACEC1;
+}
+
+
+
+
